@@ -7,9 +7,9 @@ import org.springframework.stereotype.Service;
 public class PessoaService {
 
     public Pessoa buscarPessoa(){
-        Pessoa p = new Pessoa(1L,"Amanda Santos","0-");
+        Pessoa p = new Pessoa(1L,"Iury Rodrigues","A-");
         p.setId(1L);
-        p.setNome("Amanda Santos");
+        p.setNome("Iury Rodrigues");
 
         return p;
     }
